@@ -1,0 +1,23 @@
+/*
+* @Author: admin
+* @Date:   2017-08-29 18:01:19
+* @Last Modified by:   admin
+* @Last Modified time: 2017-09-11 09:45:02
+*/
+*{
+	margin: 0;  /* 清除body身上的，8px */
+    text-decoration:none;  /* 清除A标签下划线 */
+	padding: 0;/*  input 值 */
+	box-sizing: border-box;   /* 浏览器会自动计算盒子宽的值 */
+	list-style: none; /* 清楚有序列表标签的点点 */
+	outline: none;      /* 清除INPUT标签上的蓝色边框 */
+	font-weight: normal;   /* 清除字体粗细格式 */
+	font-style: normal;    /* 清除字体斜体格式 */
+	border: none;   /* 清除input身上的border值 */
+}
+img{
+	width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
