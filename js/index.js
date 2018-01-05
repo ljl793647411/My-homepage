@@ -23,7 +23,7 @@ $(function () {
             }
             else if (index === 2) {
                 $(".zhaopian li:nth-child(1)")
-                    .delay(500)
+
                     .animate({
                         "top": 0,
                         "left": 0,
@@ -33,13 +33,13 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                    .delay(500)
+
                     .queue(function () {
                         $(".wenzi p").css("marginLeft", 0)
 
                         $(this).dequeue()
                     })
-                $(".zhaopian li:nth-child(2)").delay(500).animate({
+                $(".zhaopian li:nth-child(2)").animate({
                     "top": 0,
                     "left": 166,
 
@@ -49,7 +49,7 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                $(".zhaopian li:nth-child(3)").delay(500).animate({
+                $(".zhaopian li:nth-child(3)").animate({
                     "top": 0,
                     "left": 332,
 
@@ -59,7 +59,7 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                $(".zhaopian li:nth-child(4)").delay(500).animate({
+                $(".zhaopian li:nth-child(4)").animate({
                     "top": 150,
                     "left": 0,
 
@@ -69,7 +69,7 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                $(".zhaopian li:nth-child(5)").delay(500).animate({
+                $(".zhaopian li:nth-child(5)").animate({
                     "top": 150,
                     "left": 166,
 
@@ -79,7 +79,7 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                $(".zhaopian li:nth-child(6)").delay(500).animate({
+                $(".zhaopian li:nth-child(6)").animate({
                     "top": 150,
                     "left": 332,
 
@@ -91,7 +91,7 @@ $(function () {
 
                     })
 
-                $(".zhaopian li:nth-child(7)").delay(500).animate({
+                $(".zhaopian li:nth-child(7)").animate({
                     "top": 300,
                     "left": 0,
 
@@ -101,7 +101,7 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                $(".zhaopian li:nth-child(8)").delay(500).animate({
+                $(".zhaopian li:nth-child(8)").animate({
                     "top": 300,
                     "left": 166,
 
@@ -111,7 +111,7 @@ $(function () {
                         $(this).addClass("factive")
                             .dequeue()
                     })
-                $(".zhaopian li:nth-child(9)").delay(500).animate({
+                $(".zhaopian li:nth-child(9)").animate({
                     "top": 300,
                     "left": 332,
 
@@ -131,7 +131,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(25, 139, 201, 1)',
                     textColor: 'rgba(241, 235, 255, 0.8)',
-                    txt: 'PS',
+                    txt: 'HTML',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -142,7 +142,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(104, 189, 96, 1)',
                     textColor: 'rgba(232, 204, 255, 0.8)',
-                    txt: 'HTML',
+                    txt: 'JS',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -153,7 +153,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(101, 62, 10, 1)',
                     textColor: 'rgba(220,161, 51, 0.8)',
-                    txt: 'CSS',
+                    txt: 'NODE.JS',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -164,7 +164,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(25, 139, 201, 1)',
                     textColor: 'rgba(237, 255, 216, 0.8)',
-                    txt: 'JS',
+                    txt: 'VUE',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -175,13 +175,12 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(93, 157, 159, 1)',
                     textColor: 'rgba(255, 236, 114, 0.8)',
-                    txt: 'JQuery',
+                    txt: 'REACT',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
                 })
                 $(".biao1")
-                    .delay(500)
                     .animate({
                         "top": 300
                     }, 1500)
@@ -189,10 +188,10 @@ $(function () {
                         $('#waterbubble1').waterbubble({
                             radius: 100,
                             lineWidth: 5,
-                            data: 0.8,
+                            data: 0.9,
                             waterColor: 'rgba(25, 139, 201, 1)',
                             textColor: 'rgba(241, 235, 255, 0.8)',
-                            txt: 'PS',
+                            txt: 'HTML',
                             font: 'bold 30px "Microsoft YaHei"',
                             wave: true,
                             animation: true
@@ -200,24 +199,24 @@ $(function () {
                         $(this).dequeue()
                     }),
 
-                    $(".biao2").delay(1000).animate({
+                    $(".biao2").delay(300).animate({
                         "top": 300
                     }, 1500)
                         .queue(function () {
                             $('#waterbubble2').waterbubble({
                                 radius: 100,
                                 lineWidth: 5,
-                                data: 0.9,
+                                data: 0.7,
                                 waterColor: 'rgba(104, 189, 96, 1)',
                                 textColor: 'rgba(232, 204, 255, 0.8)',
-                                txt: 'HTML',
+                                txt: 'JS',
                                 font: 'bold 30px "Microsoft YaHei"',
                                 wave: true,
                                 animation: true
                             })
                             $(this).dequeue()
                         }),
-                    $(".biao3").delay(1500).animate({
+                    $(".biao3").delay(600).animate({
                         "top": 300
                     }, 1500)
                         .queue(function () {
@@ -227,24 +226,24 @@ $(function () {
                                 data: .8,
                                 waterColor: 'rgba(101, 62, 10, 1)',
                                 textColor: 'rgba(220,161, 51, 0.8)',
-                                txt: 'CSS',
+                                txt: 'NODE.JS',
                                 font: 'bold 30px "Microsoft YaHei"',
                                 wave: true,
                                 animation: true
                             })
                             $(this).dequeue()
                         }),
-                    $(".biao4").delay(2000).animate({
+                    $(".biao4").delay(900).animate({
                         "top": 300
                     }, 1500)
                         .queue(function () {
                             $('#waterbubble4').waterbubble({
                                 radius: 100,
                                 lineWidth: 5,
-                                data: .6,
+                                data: .7,
                                 waterColor: 'rgba(25, 139, 201, 1)',
                                 textColor: 'rgba(237, 255, 216, 0.8)',
-                                txt: 'JS',
+                                txt: 'VUE',
                                 font: 'bold 30px "Microsoft YaHei"',
                                 wave: true,
                                 animation: true
@@ -254,17 +253,17 @@ $(function () {
                         })
 
 
-                $(".biao5").delay(2500).animate({
+                $(".biao5").delay(1200).animate({
                     "top": 300
                 }, 1500)
                     .queue(function(){
                         $('#waterbubble5').waterbubble({
                             radius: 100,
                             lineWidth: 5,
-                            data: .4,
+                            data: .8,
                             waterColor: 'rgba(93, 157, 159, 1)',
                             textColor: 'rgba(255, 236, 114, 0.8)',
-                            txt: 'JQuery',
+                            txt: 'REACT',
                             font: 'bold 30px "Microsoft YaHei"',
                             wave: true,
                             animation: true
@@ -282,33 +281,33 @@ $(function () {
                 $(".scene ul").addClass("mactive");
             }
             else if (index === 5) {
-                $(".xingqiu1").delay(500).animate({
+                $(".xingqiu1").animate({
                     "top": 0,
                     "left": 133
                 })
-                $(".xingqiu2").delay(500).animate({
+                $(".xingqiu2").animate({
                     "top": 0,
                     "left": 399
                 })
-                $(".xingqiu3").delay(500).animate({
+                $(".xingqiu3").animate({
                     "top": 0,
                     "left": 665,
                     // "transform":scale(1,1),
                 })
-                $(".xingqiu4").delay(500).animate({
+                $(".xingqiu4").animate({
                     "top": 0,
                     "left": 931
                 })
-                $(".xingqiu5").delay(500).animate({
+                $(".xingqiu5").animate({
                     "top": 0,
                     "left": 1197
                     // "transform":"scale(1,1)"
                 })
-                $(".diwu ul li .xinxi1").delay(2500).fadeIn(2000)
-                $(".diwu ul li .xinxi2").delay(2800).fadeIn(2000)
-                $(".diwu ul li .xinxi3").delay(3100).fadeIn(2000)
-                $(".diwu ul li .xinxi4").delay(3400).fadeIn(2000)
-                $(".diwu ul li .xinxi5").delay(3700).fadeIn(2000)
+                $(".diwu ul li .xinxi1").delay(2000).fadeIn(2000)
+                $(".diwu ul li .xinxi2").delay(2300).fadeIn(2000)
+                $(".diwu ul li .xinxi3").delay(2600).fadeIn(2000)
+                $(".diwu ul li .xinxi4").delay(2900).fadeIn(2000)
+                $(".diwu ul li .xinxi5").delay(3300).fadeIn(2000)
 
             }
         },
@@ -393,7 +392,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(25, 139, 201, 1)',
                     textColor: 'rgba(241, 235, 255, 0.8)',
-                    txt: 'PS',
+                    txt: 'HTML',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -404,7 +403,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(104, 189, 96, 1)',
                     textColor: 'rgba(232, 204, 255, 0.8)',
-                    txt: 'HTML',
+                    txt: 'JS',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -415,7 +414,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(101, 62, 10, 1)',
                     textColor: 'rgba(220,161, 51, 0.8)',
-                    txt: 'CSS',
+                    txt: 'NODE.JS',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -426,7 +425,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(25, 139, 201, 1)',
                     textColor: 'rgba(237, 255, 216, 0.8)',
-                    txt: 'JS',
+                    txt: 'VUE',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true
@@ -437,7 +436,7 @@ $(function () {
                     data: 0,
                     waterColor: 'rgba(93, 157, 159, 1)',
                     textColor: 'rgba(255, 236, 114, 0.8)',
-                    txt: 'JQuery',
+                    txt: 'REACT',
                     font: 'bold 30px "Microsoft YaHei"',
                     wave: true,
                     animation: true

@@ -1,6 +1,6 @@
 var box = $(".box");
 var divs = box.find("a");
-var arrColor=['',"qiye.jpg","wuziqi.jpg","xiaomi.jpg","yidong.jpg","dazi.jpg"]
+var arrColor=['',"bg1.jpg","wuziqi.jpg","app.jpg","qiye.jpg","dazi.jpg"]
 //遍历每一个DIV  然后再里面先创建一个UL,然后再创建9个LI
 var x,y;
 divs.each(function(index,el){
